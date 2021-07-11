@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira code", Georgia, Times, "Times New Roman", serif;
+}
+
+body {
+  display: flex;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  width: 120vh;
+  height: 70vh;
+  margin: auto;
+  box-shadow: 0 12px 5px 5px rgba(0, 0, 255, .2);
+ 
+}
+.left {
+  border: 1px solid whitesmoke;
+  box-sizing: border-box;
+  background-color: yellow;
+}
+
+.right {
+  border: 1px solid whitesmoke;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+.BG,
+.text {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.circle {
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 180px;
+    background-color: coral;
+    border-radius: 50%;
+    margin-left: 20%;
+    }
+    
+.arrow{
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 56px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-bottom: 50px;
+    
+}
+.ar_sign{
+    color: gold;
+   padding-top: 6px;
+   padding-left: 20px;
+}
+
+.form-field{
+    width: 600px;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 25px;
+    padding: 20px;
+}
+.input{
+    margin: 20px;
+}
+.btn{
+    margin-top: 19px;
+    margin-left: 100px;
+    padding-right: 25;
+}
+.btn-1{
+    background-color: rgb(200, 255, 0);
+    color: #000;
+    border-radius: 3px ;
+    font-weight: bold;
+    padding: 10px 9px;
+}
+#btn-2{
+    background-color: ivory;
+}
+.color-i{
+    color: rgb(75, 75, 75);
+}
+.color{
+    color: silver;
+}
